@@ -1,0 +1,18 @@
+Dando continuidade ao seu trabalho na empresa de consultora de software, 
+o cliente que fabrica peças automotivas requisitou uma nova funcionalidade 
+para o sistema: calcular o total de vendas. Como seus negócios estão expandindo, 
+o cliente solicitou que o sistema seja capaz de receber valores em reais, dolár ou 
+euro, e que seja feita a conversão para o valor em reais. Como essa entrega demanda 
+a construção de uma interface gráfica, além da comunicação com banco de dados, dentre
+ outros requisitos técnicos, você foi alocado em uma equipe ágil para criar a função 
+ que fará o cálculo do valor.
+
+Após uma primeira reunião, a equipe fez um levantamento de requisitos e concluiu que 
+a função a ser construída precisa considerar os seguintes itens:
+
+O valor do produto (obrigatório).
+A quantidade do produto (obrigatório).
+A moeda em que deve ser feito o cálculo (obrigatório, sendo padrão o real).
+A porcentagem do desconto que será concedida na compra (opcional).
+A porcentagem de acréscimo, que depende da forma de pagamento (opcional).
+Uma conta não pode ter desconto e acréscimo ao mesmo tempo. Nessa primeira versão, você deve considerar o valor do dólar em R$ 5,00 e do euro 5,70. Ainda não foram definidos os detalhes de como os dados serão capturados e tratados após serem digitados e submetidos. Porém, você deve entregar a versão inicial da função, para que a equipe comece a fazer os primeiros testes.
